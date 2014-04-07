@@ -1,0 +1,1 @@
+Hi {NAME}. We have received your donation of {AMOUNT} to the Company.<br /><br />Together we can turn this city around.<br /><br />Thanks again,<br />The Company

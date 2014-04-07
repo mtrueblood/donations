@@ -1,0 +1,5 @@
+{NAME} has just donated {AMOUNT} to the Company:
+
+"{MESSAGE}".
+
+{NAME} - {EMAIL}

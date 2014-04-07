@@ -1,0 +1,625 @@
+
+body.interior {
+  background-color: #92d9f7;
+}
+.wrapper {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  float: none;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.full {
+  width: 82.97872%;
+  float: right;
+  margin-right: 0;
+  float: none;
+  margin: 0 auto;
+}
+.threefourths {
+  width: 65.95745%;
+  float: right;
+  margin-right: 0;
+  float: left;
+  margin: 0 auto;
+  margin-left: 10.5%;
+}
+.half {
+  width: 48.93617%;
+  float: right;
+  margin-right: 0;
+  float: left;
+  margin: 0 auto;
+}
+.content {
+  width: 82.97872%;
+  float: right;
+  margin-right: 0;
+  float: none;
+  margin: 0 auto;
+  top: 125px;
+  position: relative;
+  z-index: 100;
+}
+.content h1 {
+  font-family: rokkitt-regular;
+  font-size: 45px;
+  color: #0CA6D3;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+.content h1 span {
+  color: #565656;
+}
+.content .red,
+.content .green,
+.content .blue {
+  background-color: #f6aea7;
+  border: #ca4e41;
+  color: #ca4e41;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+.content .green {
+  background-color: #acf6a7;
+  border: #51ca41;
+  color: #51ca41;
+}
+.content .blue {
+  background-color: #a7ccf6;
+  border: #4171ca;
+  color: #4171ca;
+}
+.content hr {
+  color: #ccc;
+}
+.content .half {
+  width: 48.93617%;
+  float: right;
+  margin-right: 0;
+  float: left;
+}
+
+.donate .content {
+  width: 95%;
+  float: right;
+  margin-right: 0;
+  float: none;
+  margin: 0 auto;
+  min-height: 450px;
+}
+/* line 2, _donations.scss */
+.donation-copy {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  float: none;
+  margin: 0 auto;
+  font-family: raleway-medium;
+  color: #565656;
+}
+/* line 9, _donations.scss */
+.donation-copy p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 16, _donations.scss */
+.donation-copy .half {
+  width: 45.74468%;
+  float: right;
+  margin-right: 0;
+  float: left;
+  margin-right: 4%;
+}
+/* line 21, _donations.scss */
+.donation-copy .half p {
+  text-align: left;
+  font-size: 13px;
+  line-height: 19px;
+}
+/* line 26, _donations.scss */
+.donation-copy .half p strong {
+  font-weight: bold;
+}
+/* line 32, _donations.scss */
+.donation-copy .half.last {
+  margin-right: 0;
+}
+
+/* line 39, _donations.scss */
+.donate h5 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+  text-align: center;
+  color: #535353;
+  clear: both;
+}
+.donate .form-half .donation-amount p {
+  text-align: left;
+  color: #fff;
+  font-size: 13px;
+}
+.donate .form-half .other-amount {
+  clear: both;
+}
+.donate .form-half .other-amount p {
+  padding-top: 8px;
+  text-align: left;
+  font-size: 11px;
+}
+.donate .form-half .card-expire p {
+  text-align: center;
+  font-size: 11px;
+  float: left;
+  line-height: 30px;
+  margin-right: 1.5%;
+}
+.donate .form-half .text.recognition,
+.donate .form-half .text.email {
+  width: 45%;
+  float: right;
+  margin-right: 0;
+  float: left;
+}
+.donate .form-half .text.email {
+  float: right;
+}
+.donate .form-half div p,
+.donate .form-half div span {
+  display: block;
+  text-align: right;
+  color: #535353;
+  font-size: 10px;
+}
+.donate .form-half .terms-opt {
+  position: absolute;
+  bottom: 0;
+  color: #535353;
+  font-size: 11px;
+}
+.thankyou-copy {
+  width: 65.95745%;
+  float: right;
+  margin-right: 0;
+  float: none;
+  margin: 0 auto 20px auto;
+}
+/* line 7, _thankyou.scss */
+.thankyou-copy p {
+  font-family: raleway-medium;
+  color: #565656;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+/* line 14, _thankyou.scss */
+.thankyou-copy p strong {
+  font-weight: bold;
+}
+.user-input {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  float: none;
+  margin: 0 auto;
+  min-height: 315px;
+}
+.user-input p {
+  font-family: raleway-medium;
+  color: #565656;
+  text-align: center;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: bold;
+}
+.user-input p span {
+  font-size: 12px;
+  display: block;
+}
+.user-input .social {
+  position: relative;
+  margin-left: 44%;
+  margin-top: 20px;
+}
+.btn {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out false;
+  -o-transition: all 1s ease-in-out false;
+  transition: all 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in, width 1s ease-in;
+  -webkit-transition-delay: 1s, 1s;
+  -moz-transition: opacity 1s ease-in 1s, width 1s ease-in 1s;
+  -o-transition: opacity 1s ease-in 1s, width 1s ease-in 1s;
+  transition: opacity 1s ease-in 1s, width 1s ease-in 1s;
+  font-family: raleway-medium;
+  background-color: #0ca6d3;
+  color: white;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px;
+  text-align: center;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: #097797;
+  color: #e1e1e1;
+}
+a.link {
+  text-decoration: none;
+  color: #0ca6d3;
+  font-weight: bold;
+}
+a.link:hover {
+  color: #097797;
+}
+.page-mask {
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 106;
+  display: none;
+  overflow: hidden;
+}
+.overlay {
+  width: 48.93617%;
+  float: right;
+  margin-right: 0;
+  float: none;
+  background: #fff;
+  position: absolute;
+  z-index: 107;
+  border: 2px solid #0CA6D3;
+  padding: 25px;
+  top: 200px;
+  left: 24%;
+  display: none;
+  min-height: 100px;
+}
+.overlay .close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #0CA6D3;
+  text-decoration: none;
+  font-family: raleway-medium;
+  font-size: 20px;
+  font-weight: bold;
+}
+.overlay img {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.overlay p {
+  padding-left: 160px;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: raleway-medium;
+}
+.overlay p a {
+  position: relative;
+  color: #0CA6D3;
+  text-decoration: none;
+  padding: 10px 0;
+}
+.projects .overlay {
+  width: 750px;
+  padding: 0;
+  top: 50px;
+  left: 23.5%;
+  height: 564px;
+  border: none;
+  background: none;
+}
+.projects .overlay img {
+  border: 2px solid #0CA6D3;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.form,
+.form-half {
+  width: 48.93617%;
+  float: right;
+  margin-right: 0;
+  float: none;
+  margin: 0 auto;
+  position: relative;
+  font-family: raleway-medium;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.form .donation-amount,
+.form-half .donation-amount {
+  position: relative;
+  width: 79.78723%;
+  float: right;
+  margin-right: 0;
+  float: left;
+  margin-bottom: 10px;
+}
+.form .donation-amount p,
+.form-half .donation-amount p {
+  background-color: #0ca6d3;
+  padding: 10px 5px 10px 10px;
+  color: #fff;
+  margin: 0;
+  font-size: 12px;
+  line-height: auto;
+  cursor: pointer;
+}
+.form .donation-amount p span,
+.form-half .donation-amount p span {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+}
+.form .donation-amount p.selected,
+.form .donation-amount p:hover,
+.form-half .donation-amount p.selected,
+.form-half .donation-amount p:hover {
+  background-color: #0a94bc;
+}
+.form .donation-amount .donation-choices,
+.form-half .donation-amount .donation-choices {
+  position: relative;
+  display: none;
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  float: none;
+}
+.form .donation-amount .donation-choices p,
+.form-half .donation-amount .donation-choices p {
+  border-bottom: 1px solid #0a94bc;
+  cursor: pointer;
+}
+.form .form-onethird,
+.form .form-twothirds,
+.form-half .form-onethird,
+.form-half .form-twothirds {
+  width: 31.91489%;
+  float: right;
+  margin-right: 0;
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+.form .form-twothirds,
+.form-half .form-twothirds {
+  width: 65.95745%;
+  float: right;
+  margin-right: 0;
+  float: left;
+}
+.form .text,
+.form .textarea,
+.form-half .text,
+.form-half .textarea {
+  width: 88.29787%;
+  float: right;
+  margin-right: 0;
+  float: left;
+  background-color: #fff;
+  padding: 7px 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 0 #999 inset;
+  border: 0;
+  display: block;
+  color: #555;
+  margin-bottom: 10px;
+  font-family: raleway-medium;
+  font-size: 13px;
+}
+.form .text.other,
+.form .text.name,
+.form .text.number,
+.form-half .text.other,
+.form-half .text.name,
+.form-half .text.number {
+  width: 48.93617%;
+  float: right;
+  margin-right: 0;
+  float: left;
+  margin-right: 10px;
+}
+.form .text.ccv,
+.form .text.zip,
+.form-half .text.ccv,
+.form-half .text.zip {
+  width: 11.70213%;
+  float: right;
+  margin-right: 0;
+  float: left;
+  margin-right: 10px;
+}
+.form .text-zip,
+.form-half .text-zip {
+  margin-right: 0;
+}
+.form .text.expire,
+.form-half .text.expire {
+  width: 11.70213%;
+  float: right;
+  margin-right: 0;
+  float: left;
+}
+.form .text.mon-expire,
+.form-half .text.mon-expire {
+  margin-right: 1.5%;
+}
+.form .text.year-expire,
+.form-half .text.year-expire {
+  margin-right: 0;
+}
+.form .text.recognition,
+.form .text.email,
+.form-half .text.recognition,
+.form-half .text.email {
+  width: 43.82979%;
+  float: right;
+  margin-right: 0;
+  float: left;
+  margin-left: 10px;
+}
+.form .text.last,
+.form .textarea.last,
+.form-half .text.last,
+.form-half .textarea.last {
+  margin-bottom: 3px;
+}
+.form .textarea,
+.form-half .textarea {
+  width: 94.25532%;
+  float: right;
+  margin-right: 0;
+  float: right;
+}
+.form .btn,
+.form-half .btn {
+  border: 0;
+  cursor: pointer;
+  width: 14.89362%;
+  float: right;
+  margin-right: 0;
+  float: right;
+}
+.form p,
+.form-half p {
+  text-align: left;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.form .error,
+.form-half .error {
+  border: 2px solid #ca4e41;
+}
+.form-half {
+  float: left;
+}
+.form.full {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  float: none;
+}
+.form.full img {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.form.full .text,
+.form.full .textarea {
+  width: 91.48936%;
+  float: right;
+  margin-right: 0;
+  float: none;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { border: 0; font-size: 100%; font: inherit; vertical-align: baseline; margin: 0; padding: 0; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+@font-face {
+  font-family: "courgette";
+  src: url("fonts/courgette-regular-webfont.eot?#iefix");
+  src: url("fonts/courgette-regular-webfont.eot?#iefix") format("eot"), url("fonts/courgette-regular-webfont.woff") format("woff"), url("fonts/courgette-regular-webfont.ttf") format("truetype"), url("fonts/courgette-regular-webfont.svg#courgette-regular-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "rokkitt-bold";
+  src: url("fonts/rokkitt-bold-webfont.eot?#iefix");
+  src: url("fonts/rokkitt-bold-webfont.eot?#iefix") format("eot"), url("fonts/rokkitt-bold-webfont.woff") format("woff"), url("fonts/rokkitt-bold-webfont.ttf") format("truetype"), url("fonts/rokkitt-bold-webfont.svg#rokkitt-bold-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "rokkitt-regular";
+  src: url("fonts/rokkitt-regular-webfont.eot?#iefix");
+  src: url("fonts/rokkitt-regular-webfont.eot?#iefix") format("eot"), url("fonts/rokkitt-regular-webfont.woff") format("woff"), url("fonts/rokkitt-regular-webfont.ttf") format("truetype"), url("fonts/rokkitt-regular-webfont.svg#rokkitt-regular-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "raleway-bold";
+  src: url("fonts/raleway-bold-webfont.eot?#iefix");
+  src: url("fonts/raleway-bold-webfont.eot?#iefix") format("eot"), url("fonts/raleway-bold-webfont.woff") format("woff"), url("fonts/raleway-bold-webfont.ttf") format("truetype"), url("fonts/raleway-bold-webfont.svg#raleway-bold-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "raleway-extra-bold";
+  src: url("fonts/raleway-extra-bold-webfont.eot?#iefix");
+  src: url("fonts/raleway-extra-bold-webfont.eot?#iefix") format("eot"), url("fonts/raleway-extra-bold-webfont.woff") format("woff"), url("fonts/raleway-extra-bold-webfont.ttf") format("truetype"), url("fonts/raleway-extra-bold-webfont.svg#raleway-extra-bold-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "raleway-heavy";
+  src: url("fonts/raleway-heavy-webfont.eot?#iefix");
+  src: url("fonts/raleway-heavy-webfont.eot?#iefix") format("eot"), url("fonts/raleway-heavy-webfont.woff") format("woff"), url("fonts/raleway-heavy-webfont.ttf") format("truetype"), url("fonts/raleway-heavy-webfont.svg#raleway-heavy-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "raleway-semi-bold";
+  src: url("fonts/raleway-semi-bold-webfont.eot?#iefix");
+  src: url("fonts/raleway-semi-bold-webfont.eot?#iefix") format("eot"), url("fonts/raleway-semi-bold-webfont.woff") format("woff"), url("fonts/raleway-semi-bold-webfont.ttf") format("truetype"), url("fonts/raleway-semi-bold-webfont.svg#raleway-semi-bold-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "raleway-extra-light";
+  src: url("fonts/raleway-extra-light-webfont.eot?#iefix");
+  src: url("fonts/raleway-extra-light-webfont.eot?#iefix") format("eot"), url("fonts/raleway-extra-light-webfont.woff") format("woff"), url("fonts/raleway-extra-light-webfont.ttf") format("truetype"), url("fonts/raleway-extra-light-webfont.svg#raleway-extra-light-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "raleway-light";
+  src: url("fonts/raleway-light-webfont.eot?#iefix");
+  src: url("fonts/raleway-light-webfont.eot?#iefix") format("eot"), url("fonts/raleway-light-webfont.woff") format("woff"), url("fonts/raleway-light-webfont.ttf") format("truetype"), url("fonts/raleway-light-webfont.svg#raleway-light-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "raleway-medium";
+  src: url("fonts/raleway-medium-webfont.eot?#iefix");
+  src: url("fonts/raleway-medium-webfont.eot?#iefix") format("eot"), url("fonts/raleway-medium-webfont.woff") format("woff"), url("fonts/raleway-medium-webfont.ttf") format("truetype"), url("fonts/raleway-medium-webfont.svg#raleway-medium-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "raleway-thin";
+  src: url("fonts/raleway-thin-webfont.eot?#iefix");
+  src: url("fonts/raleway-thin-webfont.eot?#iefix") format("eot"), url("fonts/raleway-thin-webfont.woff") format("woff"), url("fonts/raleway-thin-webfont.ttf") format("truetype"), url("fonts/raleway-thin-webfont.svg#raleway-thin-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
